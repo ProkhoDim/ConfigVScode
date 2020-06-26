@@ -1,24 +1,22 @@
 {
-    "For Loop": {
-        "prefix": [
-            "for",
-            "for-const"
-        ],
-        "body": [
-            "for (const ${2:element} of ${1:array}) {",
-            "\t$0",
-            "}"
-        ],
-        "description": "A for loop."
-    },
-    "ConsoleLog": {
-        "prefix": "conl",
-        "body": "console.log($TM_SELECTED_TEXT",
-        "description": "Console log",
-    },
-    "QuerySelector": {
-        "prefix": "qs",
-        "body": "document.querySelector('${1}')",
-        "description": "Query Selector",
-    }
+  "For Loop": {
+    "prefix": ["for", "for-const"],
+    "body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
+    "description": "A for loop."
+  },
+  "ConsoleLog": {
+    "prefix": "conl",
+    "body": "console.log($0$TM_SELECTED_TEXT);",
+    "description": "Console log"
+  },
+  "QuerySelector": {
+    "prefix": "qs",
+    "body": "document.querySelector('${1}')",
+    "description": "Query Selector"
+  },
+  "ImportS-t": {
+    "prefix": "imp",
+    "body": "import ${2:moduleName} from '$0$TM_SELECTED_TEXT'",
+    "description": "Import statement"
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "window.zoomLevel": 1,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.sideBar.location": "left",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "git.autofetch": true,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#000000", //"#282c34",
+    "activityBar.background": "#000000",
+    "sideBar.background": "#000",
+    "editor.background": "#1414149b",
+    "menu.background": "#000",
+    "menu.selectionBackground": "#00ff006c"
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.proseWrap": "always",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.extensionsPath": "E:\\GoIT",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "launch": {},
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
