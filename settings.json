@@ -8,6 +8,8 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "auto-rename-tag.activationOnLanguage": ["javascriptreact"],
+  "auto-close-tag.activationOnLanguage": ["javascript", "javascriptreact"],
   "workbench.colorTheme": "One Dark Pro",
   "workbench.sideBar.location": "left",
   "liveServer.settings.CustomBrowser": "chrome",
