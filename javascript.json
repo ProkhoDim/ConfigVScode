@@ -1,37 +1,49 @@
 {
-  "For Loop": {
-    "prefix": ["for", "for-const"],
-    "body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
-    "description": "A for loop."
-  },
-  "ConsoleLog": {
-    "prefix": "conl",
-    "body": "console.log($0$TM_SELECTED_TEXT);",
-    "description": "Console log"
-  },
-  "QuerySelector": {
-    "prefix": "qs",
-    "body": "document.querySelector('${1}')",
-    "description": "Query Selector"
-  },
-  "ImportS-t": {
-    "prefix": "imp",
-    "body": "import ${2:moduleName} from '$0$TM_SELECTED_TEXT'",
-    "description": "Import statement"
-  },
-  "index.js export": {
-    "prefix": "epd",
-    "body": "export { default } from '$0$TM_SELECTED_TEXT'",
-    "description": "Export default in index.js React"
-  },
-  "event Prevent Default": {
-    "prefix": "prd",
-    "body": "preventDefault();",
-    "description": "Event prevent Default when use submit button"
-  },
-  "event current target": {
-    "prefix": "ct",
-    "body": "currentTarget.",
-    "description": "Event ...."
-  }
+    "For Loop": {
+        "prefix": [
+            "for",
+            "for-const"
+        ],
+        "body": [
+            "for (const ${2:element} of ${1:array}) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "A for loop."
+    },
+    "ConsoleLog": {
+        "prefix": "conl",
+        "body": "console.log($0$TM_SELECTED_TEXT);",
+        "description": "Console log",
+    },
+    "QuerySelector": {
+        "prefix": "qs",
+        "body": "document.querySelector('${1}')",
+        "description": "Query Selector",
+    },
+    "ImportS-t": {
+        "prefix": "imp",
+        "body": "import ${2:moduleName} from '$0$TM_SELECTED_TEXT'",
+        "description": "Import statement",
+    },
+    "index.js export": {
+        "prefix": "epd",
+        "body": "export { default } from '$0$TM_SELECTED_TEXT'",
+        "description": "Export default in index.js React",
+    },
+    "event Prevent Default": {
+        "prefix": "prd",
+        "body": "preventDefault();",
+        "description": "Event prevent Default when use submit button",
+    },
+    "event current target": {
+        "prefix": "ct",
+        "body": "currentTarget.",
+        "description": "Event ....",
+    },
+    "arrow function row": {
+        "prefix": "arwfr",
+        "body": "const ${1:name} = (${2:params}) => $0$TM_SELECTED_TEXT",
+        "description": "Event ....",
+    },
 }
